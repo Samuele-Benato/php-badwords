@@ -6,25 +6,20 @@
     <title>PHP Hello Word</title>
   </head>
   <body>
-    <form action="./index.php" method="GET">
+    <form action="./script.php" method="GET">
       <input
         style="display: block; margin: 1rem 0"
         type="text"
-        name="name"
-        placeholder="Name..."
+        name="censoredWord"
+        placeholder="word to be censored..."
       />
       <input
         style="display: block; margin: 1rem 0"
-        type="text"
-        name="surname"
-        placeholder="Surname..."
+        type="textarea"
+        name="paragraph"
+        placeholder="Your Clean Paragraph..."
       />
-      <input
-        style="display: block; margin: 1rem 0"
-        type="text"
-        name="password"
-        placeholder="Password..."
-      />
+
       <button type="submit">Invia</button>
     </form>
   </body>
